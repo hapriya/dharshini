@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label for="demo1">name:</label>
+    <input type="text" id="demo1" name="demo1">
+    <script>
+        document.getElementById('demo1').addEventListener('input', function (e) {
+            var input = e.target.value;
+            if (/[^0-9]/.test(input)) {
+                alert("Please enter numbers only.");
+                e.target.value = input.replace(/[^0-9]/g, '');
+            }
+        });
+    </script>
+
+</body>
+</html>

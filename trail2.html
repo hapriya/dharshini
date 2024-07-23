@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        .container {
+            width: 50%;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Money Tracker Web App</h1>
+    <div class="container">
+        <label for="cate">Category :</label>
+        <select id="cate-list">
+            <option value="college">College Fees</option>
+            <option value="rent">Rent</option>
+            <option value="transport">Transport</option>
+            <option value="food">Food</option>
+            <option value="shopping">Shopping</option>
+            <option value="cool-drinks">Cool Drinks</option>
+        </select>
+        <label for="num">Amount :</label>
+        <input type="number" id="num" name="num">
+        <label for="date-input">Date :</label>
+        <input type="date" id="date-input" name="date-input">
+        <button id="add">Add</button>
+
+        <h1>Expenses list</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="expenses-list">
+              
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td id="total-amount" colspan="3">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script>
+        document.getElementById('add').addEventListener('click', function() {
+            const category = document.getElementById('cate-list').value;
+            const amount = document.getElementById('num').value;
+            const date = document.getElementById('date-input').value;
+
+            if (category && amount && date) {
+                const tbody = document.getElementById('expenses-list');
+                const row = tbody.insertRow();
+
+                const cell1 = row.insertCell(0);
+                const cell2 = row.insertCell(1);
+                const cell3 = row.insertCell(2);
+                const cell4 = row.insertCell(3);
+
+                cell1.textContent = category;
+                cell2.textContent = amount;
+                cell3.textContent = date;
+
+                const deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Delete';
+                deleteButton.addEventListener('click', function() {
+                    tbody.removeChild(row);
+                    updateTotal();
+                });
+                cell4.appendChild(deleteButton);
+
+                updateTotal();
+            }
+        });
+
+        function updateTotal() {
+            const rows = document.querySelectorAll('#expenses-list tr');
+            let total = 0;
+            rows.forEach(row => {
+                const amount = parseFloat(row.cells[1].textContent);
+                if (!isNaN(amount)) {
+                    total += amount;
+                }
+            });
+            document.getElementById('total-amount').textContent = total.toFixed(2);
+        }
+    </script>
+
+</body>
+</html>

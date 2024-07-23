@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <!-- <script>
+        function myFunction(some){
+            document.getElementById("demo").innerHTML=some;
+
+        }
+        function firstClass(){
+            myFunction("hello priya");
+        }
+        function secondClass(){
+            myFunction("hi, vdk");
+        }
+        secondClass();
+        firstClass();
+       
+    </script>
+    <p id="demo"></p>
+
+    <script>
+    document.getElementById("demo").innerHTML = "Hello World!";
+    </script> -->
+
+    <!-- <script>// Define the event handler function// Define the event handler function
+        function handleClick() {
+          console.log('Button was clicked!');
+        }
+        
+        // Select the button element
+        const button = document.querySelector('button');
+        
+        // Add the event listener to the button
+        button.addEventListener('click', handleClick);
+        
+        // Remove the event listener from the button
+        button.removeEventListener('click', handleClick);
+         -->
+        <!-- </script> -->
+       
+          <button id="myButton">Click Me!</button>
+          <button id="removeButton">Remove Click Event</button>
+        
+          <script>
+            // Define the event handler function
+            function handleClick() {
+              alert('Button was clicked!');
+            }
+        
+            // Select the button element
+            const button = document.getElementById('myButton');
+            const removeButton = document.getElementById('removeButton');
+        
+            // Add the event listener to the button
+            button.addEventListener('click', handleClick);
+        
+            // Define the function to remove the event listener
+            removeButton.addEventListener('click', function() {
+              button.removeEventListener('click', handleClick);
+              alert('Click event listener removed!');
+            });
+          </script>
+        
+
+    
+</body>
+</html>

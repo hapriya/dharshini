@@ -1,0 +1,1204 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.when {
+    background-color: white;
+    padding: 5px;
+    height: 5px;
+}
+
+.bar {
+    height: 3px;
+    float: left;
+    width: 3px;
+    margin: 10px;
+}
+
+.list {
+    display: flex;
+    float: right;
+}
+
+.list ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.but {
+    padding: 1px;
+    font-size: small;
+    border-radius: 25px;
+    background-color: #aad256;
+    align-items: center;
+    margin: 12px;
+}
+
+#back {
+    background-image: url(background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hara1 {
+
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.para1 {
+    text-align: center;
+    padding: 0;
+}
+
+#flex {
+    display: flex;
+
+}
+
+#flex div {
+    margin: 0px;
+    height: 400px;
+    padding-top: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+.graph {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #5acda6;
+    width: 25%;
+}
+
+.pink {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0%;
+    margin-top: 30px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    background-color: #91ac41;
+    width: 25%;
+}
+
+.head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #e4b476;
+    width: 25%;
+
+}
+
+.foot {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f69dad;
+    width: 25%;
+}
+
+#round {
+    background-color: #f7eee2;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.circle {
+    text-align: center;
+}
+
+.circle h4 {
+    color: maroon;
+}
+
+.rounding {
+    display: flex;
+    /* flex-direction: row; */
+    margin: 0px;
+    height: 600px;
+    background-color: #f7eee2;
+    padding-top: 60px;
+    /* column-gap: 20px; */
+    padding-left: 0px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.camera {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+    /* justify-content: center; */
+}
+
+.rocket {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.bird {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.msg {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.camera div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.rocket div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+
+}
+
+.bird div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.msg div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.food {
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.fresh {
+    text-align: center;
+}
+
+.fresh h4 {
+    color: brown;
+}
+
+.image {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.girl {
+    height: 350px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    margin-left: 100px;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.boy {
+    height: 300px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.beard {
+    height: 350px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    margin-right: 100px;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.straw {
+    display: flex;
+}
+
+.blue {
+    background-image: url(./blueberry.webp);
+    opacity: 0.7;
+    height: 450px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.btn        {
+    background-color: #f69dad;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    text-transform: uppercase;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.number {
+    background-color: #f6fcfa;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alter {
+    width: 100%;
+    height: 30%;
+   text-align: center;
+  
+}
+.text{
+   color:#57e3b5;
+}
+.final{
+   display: flex;
+}
+.end{
+   display: grid;
+}
+.insert{
+   width: 50%;
+   height: 50px;
+}
+.send{
+   width: 50%;
+   height: 100px;
+}
+.button{
+   background-color: #aad236;
+   padding: 10px;
+   border-radius: 4px;
+   width: 130px;
+   height: 50px;
+   text-transform: uppercase;
+ }
+.graph {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #5acda6;
+    width: 25%;
+}
+
+.pink {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0%;
+    margin-top: 30px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    background-color: #91ac41;
+    width: 25%;
+}
+
+.head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #e4b476;
+    width: 25%;
+
+}
+
+.foot {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f69dad;
+    width: 25%;
+}
+
+#round {
+    background-color: #f7eee2;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.circle {
+    text-align: center;
+}
+
+.circle h4 {
+    color: maroon;
+}
+
+.rounding {
+    display: flex;
+    /* flex-direction: row; */
+    margin: 0px;
+    height: 600px;
+    background-color: #f7eee2;
+    padding-top: 60px;
+    /* column-gap: 20px; */
+    padding-left: 0px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.camera {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+    /* justify-content: center; */
+}
+
+.rocket {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.bird {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.msg {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.camera div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.rocket div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+
+}
+
+.bird div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.msg div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.food {
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.fresh {
+    text-align: center;
+}
+
+.fresh h4 {
+    color: brown;
+}
+
+.image {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.girl {
+    height: 350px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    margin-left: 100px;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.boy {
+    height: 300px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.beard {
+    height: 350px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    margin-right: 100px;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.straw {
+    display: flex;
+}
+
+.blue {
+    background-image: url(./blueberry.webp);
+    opacity: 0.7;
+    height: 450px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.btn        {
+    background-color: #f69dad;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    text-transform: uppercase;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.number {
+    background-color: #f6fcfa;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alter {
+    width: 100%;
+    height: 30%;
+   text-align: center;
+  
+}
+.text{
+   color:#57e3b5;
+}
+.final{
+   display: flex;
+}
+.end{
+   display: grid;
+}
+.insert{
+   width: 50%;
+   height: 50px;
+}
+.send{
+   width: 50%;
+   height: 100px;
+}
+.button{
+   background-color: #aad236;
+   padding: 10px;
+   border-radius: 4px;
+   width: 130px;
+   height: 50px;
+   text-transform: uppercase;
+ }.camera {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+    /* justify-content: center; */
+}
+
+.rocket {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.bird {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.msg {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.camera div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.rocket div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+
+}
+
+.bird div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.msg div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.food {
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.fresh {
+    text-align: center;
+}
+
+.fresh h4 {
+    color: brown;
+}
+
+.image {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.girl {
+    height: 350px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    margin-left: 100px;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.boy {
+    height: 300px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.beard {
+    height: 350px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    margin-right: 100px;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.straw {
+    display: flex;
+}
+
+.blue {
+    background-image: url(./blueberry.webp);
+    opacity: 0.7;
+    height: 450px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.btn        {
+    background-color: #f69dad;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    text-transform: uppercase;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.number {
+    background-color: #f6fcfa;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alter {
+    width: 100%;
+    height: 30%;
+   text-align: center;
+  
+}
+.text{
+   color:#57e3b5;
+}
+.final{
+   display: flex;
+}
+.end{
+   display: grid;
+}
+.insert{
+   width: 50%;
+   height: 50px;
+}
+.send{
+   width: 50%;
+   height: 100px;
+}
+.button{
+   background-color: #aad236;
+   padding: 10px;
+   border-radius: 4px;
+   width: 130px;
+   height: 50px;
+   text-transform: uppercase;
+ }
+
+
+
+
+
+
+box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.when {
+    background-color: white;
+    padding: 5px;
+    height: 5px;
+}
+
+.bar {
+    height: 3px;
+    float: left;
+    width: 3px;
+    margin: 10px;
+}
+
+.list {
+    display: flex;
+    float: right;
+}
+
+.list ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.but {
+    padding: 1px;
+    font-size: small;
+    border-radius: 25px;
+    background-color: #aad256;
+    align-items: center;
+    margin: 12px;
+}
+
+#back {
+    background-image: url(background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hara1 {
+
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.para1 {
+    text-align: center;
+    padding: 0;
+}
+
+#flex {
+    display: flex;
+
+}
+
+#flex div {
+    margin: 0px;
+    height: 400px;
+    padding-top: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+.graph {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #5acda6;
+    width: 25%;
+}
+
+.pink {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0%;
+    margin-top: 30px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    background-color: #91ac41;
+    width: 25%;
+}
+
+.head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #e4b476;
+    width: 25%;
+
+}
+
+.foot {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f69dad;
+    width: 25%;
+}
+
+#round {
+    background-color: #f7eee2;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.circle {
+    text-align: center;
+}
+
+.circle h4 {
+    color: maroon;
+}
+
+.rounding {
+    display: flex;
+    /* flex-direction: row; */
+    margin: 0px;
+    height: 600px;
+    background-color: #f7eee2;
+    padding-top: 60px;
+    /* column-gap: 20px; */
+    padding-left: 0px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.camera {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+    /* justify-content: center; */
+}
+
+.rocket {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.bird {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.msg {
+    background-color: #e3b375;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.camera div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.rocket div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+
+}
+
+.bird div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.msg div {
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.food {
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.fresh {
+    text-align: center;
+}
+
+.fresh h4 {
+    color: brown;
+}
+
+.image {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.girl {
+    height: 350px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    margin-left: 100px;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.boy {
+    height: 300px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.beard {
+    height: 350px;
+    width: 30%;
+    text-align: center;
+    background-color: #f5f6fb;
+    margin-right: 100px;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.straw {
+    display: flex;
+}
+
+.blue {
+    background-image: url(./blueberry.webp);
+    opacity: 0.7;
+    height: 450px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.btn        {
+    background-color: #f69dad;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    text-transform: uppercase;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.number {
+    background-color: #f6fcfa;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alter {
+    width: 100%;
+    height: 30%;
+   text-align: center;
+  
+}
+.text{
+   color:#57e3b5;
+}
+.final{
+   display: flex;
+}
+.end{
+   display: grid;
+}
+.insert{
+   width: 50%;
+   height: 50px;
+}
+.send{
+   width: 50%;
+   height: 100px;
+}
+.button{
+   background-color: #aad236;
+   padding: 10px;
+   border-radius: 4px;
+   width: 130px;
+   height: 50px;
+   text-transform: uppercase;
+ }

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display:felx;
+    text-align: center;
+    justify-content: center;
+    height:100vh;
+    margin:0;
+
+
+}
+.container{
+    position: relative;
+    width: 300px;
+    overflow: hidden;}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;}
+.source{
+    display: flex;
+}
+.car-img{
+    min-width: 300px;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+.carousel-button-left {
+    left: 10px;
+}
+
+.carousel-button-right {
+    right: 10px;
+}
+car-img{
+    list-style-type: none;
+}

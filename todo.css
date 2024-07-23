@@ -1,0 +1,54 @@
+
+*{
+    box-sizing: border-box;
+}
+    
+body{
+    margin:0;
+    padding:20px;
+    background-color: rgb(124, 124, 114);
+}
+.container{
+  width:60%;
+  padding:10px;
+  margin:0 auto;
+  border:1px solid black;
+}
+.input-section{
+    display: flex;
+
+}
+.input-section input{
+    flex:1;
+    padding:5px;
+    
+}
+.input-section button{
+    background-color: rgb(235, 63, 63);
+    border:unset;
+    color:rgb(248, 242, 242);
+}
+.list-section ul{
+    padding:0;
+    margin:0;
+    
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.list-section ul li{
+    border:1px solid;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.list-section ul li .done{
+    text-decoration: line-through;
+
+}
+.list-section ul li .close{
+    background-color: antiquewhite;
+    color:black;
+    padding:10px;
+}

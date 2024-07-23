@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- <p id="demo">hello world</p>
+     <button type="button" onclick='document.getElementById("demo").innerHTML="hi world"'>click me 
+
+     </button>
+     <p id="demo2" style="display:none">priya</p>
+<button type="button" onclick="document.getElementById('demo2').style.display='block'";>click me</button> -->
+<h1>javascript</h1>
+<p id="demo">javascript code </p>
+<script>
+    function display(){
+        document.getElementById("demo").innerHTML="priya";
+    }
+</script>
+<button type="button"  onclick="display()">click me</button>
+
+         <p  id="demo1"></p>
+         <script>
+         document.getElementById("demo1").innerHTML= 3+5;
+        </script>   
+        
+        <script>
+            document.write(1+4);
+        </script>
+
+
+      <button type="buttton" onclick="document.write(3+4)">try it
+
+      </button>
+
+
+      <script>
+        window.alert(2+4);
+      </script>
+      <script>
+        console.log(1+2);
+      </script>
+      <button onclick="window.print()">print this page</button><br>
+<p id="demo3"></p>
+      <script>
+     let x,y,z;
+     x=10;
+     y=1;
+     z=x+y;
+     document.getElementById("demo3").innerHTML="the value of z is"+z+".";
+
+      </script>
+
+<p id="text"></p>
+<button onclick="displayDate()">click me
+
+  </button>
+<script>
+  function displayDate(){
+    document.getElementById("text").innerHTML=Date();
+  }
+</script>
+
+
+<button onclick="this.innerHTML=Date()">click </button>
+      
+
+        <script>
+          arr=[1,3,5]
+          arr1=[...arr]
+          
+          arr1==arr;
+
+        </script>
+
+        </body>
+
+
+</html>

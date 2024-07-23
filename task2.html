@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="display">0</div>
+    <button onclick="num(1)">Add</button>
+    <button onclick="num(-1)">Subtract</button>
+
+    <script>
+        let number = 0; 
+       function num(hi) {
+            document.getElementById('display').innerText = number += hi;
+        }
+        
+    </script>
+
+        
+    
+    <div id="display">0</div>
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+
+    <script>
+        let number1 = 0; 
+        const add = () => document.getElementById('display').innerText = ++number1;
+        const subtract = () => document.getElementById('display').innerText = --number1;
+
+    </script>
+    
+   
+</body>
+</html>

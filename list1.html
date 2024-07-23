@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./list 1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <div class="form-group">
+            <label for="cate-list">Category:</label>
+            <select id="cate-list">
+                <option value="college">College Fees</option>
+                <option value="rent">Rent</option>
+                <option value="transport">Transport</option>
+                <option value="food">Food</option>
+                <option value="shopping">Shopping</option>
+                <option value="cool-drinks">Cool Drinks</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="num">Amount:</label>
+            <input type="number" id="num" name="num">
+        </div>
+        <div class="form-group">
+            <label for="date-input">Date:</label>
+            <input type="date" id="date-input" name="date-input">
+        </div>
+        <button id="add">Add</button>
+
+        <h2>Expenses List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="expenses-list">
+             
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td id="total-amount" colspan="3">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./list1.js"></script>
+</body>
+</html>
+
+</body>
+</html>

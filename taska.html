@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./taska.css">
+</head>
+<body>
+    <!-- <label for="demo1">name:</label>
+    <input type="text" id="demo1" name="demo1"> -->
+   
+
+    <label for="demo1">name:</label>
+    <input type="text" id="demo1" name="demo1">
+<script>
+
+    document.getElementById('demo1').addEventListener('input', function (e) {
+        var input = e.target.value;
+        e.target.value = input.replace(/[^0-9]/g, '');
+    });
+    
+</script>
+
+    <label for="demo1">name:</label>
+    <input type="number" id="demo1" name="demo1">
+   <script>alert("Please enter numbers only.");</script> 
+   
+
+
+
+</body>
+</html>

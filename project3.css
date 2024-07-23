@@ -1,0 +1,78 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.qbox {
+    border: 2px solid black;
+    margin: auto;
+    width: 400px;
+    margin-top: 200px;
+    height: 145px;
+    text-align: center;
+    padding: 40px;
+    background-color: black; 
+    color: white;
+}
+
+#author {
+    margin-top: 10px;
+    text-align: right;
+    font-style: italic;
+}
+
+#button {
+    display: block;
+    margin: 50px auto 0 auto;
+    background-color: rgb(231, 66, 66);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#button:hover {
+    background-color: rgb(200, 50, 50);
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.qbox {
+    border-radius: 20px; 
+    margin: auto;
+    width: 600px;
+    margin-top: 200px;
+    height: 250px;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    background-image: url("./quotes1.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: red;
+    border: 2px solid rgb(156, 172, 245);
+}
+
+#author {
+    margin-top: 20px;
+}
+
+#bn {
+    border-radius: 5px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(168, 51, 143);
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}

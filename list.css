@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0
+}
+h1,h2{
+    text-align:center;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content:mvbnfghbn nbgtgys ;
+    text-align: right;
+   padding:10px;
+
+}
+.cate-list{
+font-weight: bold;
+margin-right: 10px;
+}
+.container input[type="number"], .container input[type="date"]{
+    padding: 5px;
+    margin-right:10px;
+}
+.container button{
+    padding :5px;
+    background-color: brown;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor: point;
+
+}
+.expense-list{
+    margin:20px;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid white;
+    padding:8px;
+    text-align:left;
+}
+th{
+    background-color: blue;
+    color:black
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding:5px 10px;
+background-color: brown;
+color:white;
+border:none;
+border-radius: 4px;
+cursor:pointer;
+}
